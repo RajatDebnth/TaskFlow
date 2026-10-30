@@ -1,4 +1,4 @@
-const PREFIX = "teamflow:"
+const PREFIX = "teamflow:v2:"
 
 export function loadJSON<T>(key: string, fallback: T): T {
   try {
