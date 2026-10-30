@@ -1,0 +1,10 @@
+{
+  "description": "Manage projects, tasks, deadlines, and team activity in one clear dashboard designed to help small teams stay organized and on track.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
