@@ -47,7 +47,7 @@ Clearing browser storage resets to seed data. Use Settings → Data & backup →
 
 ## Future versions (roadmap)
 
-### v2 — Backend integration (target: high)
+### v2 — Backend integration
 - **FastAPI + PostgreSQL** backend with REST API (`/api/v1`).
 - **Auth**: register, login, logout, JWT with secure password hashing.
 - **Multi-user / teams**: team creation, memberships, roles (admin/member/viewer).
@@ -57,21 +57,21 @@ Clearing browser storage resets to seed data. Use Settings → Data & backup →
 - **React Router** for real routing (`/login`, `/register`, `/app`, `/app/projects/:id`, `/app/board/:projectId`, etc.).
 - Deploy frontend to Vercel, backend to a managed host.
 
-### v3 — AI integration (target: high)
+### v3 — AI integration
 - **AI task assistant**: turn a brief into a task plan, assign owners, set priorities/due dates.
 - **Progress summarization**: weekly digest of completed/overdue work per member.
 - **Blocker detection**: surface stalled tasks and suggest next actions.
 - **Smart search**: natural-language search across projects, tasks, and activity.
 - **AI-generated project templates** for common workflows.
 
-### v4 — Data analytics (target: high)
+### v4 — Data analytics
 - **Analytics dashboard**: throughput, cycle time, lead time, burndown/burnup charts.
 - **Team performance**: per-member completion rates, capacity utilization, overdue trends.
 - **Project health scores**: risk indicators based on overdue ratio and velocity.
 - **Exportable reports** (CSV/PDF) and scheduled email digests.
 - **Forecasting**: estimated completion dates based on historical velocity.
 
-### Additional features (target: high)
+### Additional features
 - Real-time updates (WebSockets) for multi-user sessions.
 - File attachments on tasks/projects.
 - Comments and @mentions.
