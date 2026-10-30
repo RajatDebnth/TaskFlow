@@ -35,7 +35,7 @@ export function DataProvider({ children }: { children: React.ReactNode }) {
   const [projects, setProjects] = useState<Project[]>(() => loadJSON("projects", seedProjects))
   const [tasks, setTasks] = useState<Task[]>(() => loadJSON("tasks", seedTasks))
   const [members, setMembers] = useState<Member[]>(() => loadJSON("members", seedMembers))
-  const [profile, setProfile] = useState<Profile>(() => loadJSON("profile", { name: "Alex Morgan", email: "alex@acmestudio.co", title: "Creative Director" }))
+  const [profile, setProfile] = useState<Profile>(() => loadJSON("profile", { name: "Rajat Nath", email: "rajatnath6909@gmail.com", title: "Creative Director" }))
   const [workspace, setWorkspace] = useState<Workspace>(() => loadJSON("workspace", { name: "Acme Studio" }))
   const [activities, setActivities] = useState<Activity[]>(() => loadJSON("activities", []))
 
